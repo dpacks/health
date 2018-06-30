@@ -1,0 +1,31 @@
+{
+  "name": "@dpack/health",
+  "version": "0.1.1",
+  "description": "Library for monitoring the health of dDatabases and dDrives.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "dhealth": "cli.js"
+  },
+  "dependencies": {
+    "@ddrive/core": "ddrives/core#master",
+    "@dwcore/rem": "dwcore/rem#master",
+    "@dwebs/codec": "distributedweb/codec#master",
+    "@flockcore/core": "flockcore/core#master",
+    "localcast": "^2.0.1",
+    "lodash.pick": "^4.4.0",
+    "pretty-bytes": "^4.0.2",
+    "progress-string": "^1.2.1",
+    "status-logger": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
