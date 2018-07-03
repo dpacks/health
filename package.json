@@ -1,6 +1,6 @@
 {
   "name": "@dpack/health",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library for monitoring the health of dDatabases and dDrives.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
