@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@ddrive/core": "ddrives/core#master",
-    "@dwcore/rem": "dwcore/rem#master",
+    "@dwcore/rem": "*",
     "@dwebs/codec": "distributedweb/codec#master",
     "@flockcore/core": "flockcore/core#master",
     "localcast": "^2.0.1",
